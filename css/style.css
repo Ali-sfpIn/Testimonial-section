@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+figure.card {
+  font-family: "Roboto", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  width: 269px;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  background-color: #2c3447;
+  padding: 30px;
+  background-image: linear-gradient(
+    -25deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
+figure.card *,
+figure.card *:before,
+figure.card *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.card figcaption {
+  width: 100%;
+}
+figure.card h2,
+figure.card h4,
+figure.card blockquote {
+  margin: 0;
+}
+figure.card h2,
+figure.card h4 {
+  font-weight: 300;
+}
+figure.card h2 {
+  color: #ffffff;
+}
+figure.card h4 {
+  color: #a6a6a6;
+}
+figure.card blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+figure.card blockquote:before {
+  font-family: "FontAwesome";
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+figure.card .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #a6a57a;
+}
+.main-container {
+  position: relative;
+}
+.transition {
+  transition: all 0.3s;
+}
+.inner-container {
+  border-radius: 10px;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid yellow;
+  width: 271px;
+  height: 499px;
+  box-shadow: 0 0 100px 40px yellow;
+  z-index: 1;
+  background-color: #3a4152;
+}
+
+.active {
+  box-shadow: 0 0 25px black;
+}
+.bi-chevron-left {
+  left: -15px;
+  background: linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+}
+.bi-chevron-right {
+  right: -15px;
+  background: linear-gradient(
+    90deg,
+    hsla(58, 100%, 68%, 1) 0%,
+    hsla(33, 100%, 53%, 1) 100%
+  );
+}
+.control-btn {
+  border-radius: 7px;
+  top: 50%;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+}
+.control-btn:hover {
+  color: white;
+}
